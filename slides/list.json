@@ -2,7 +2,6 @@
     "index.md",
     "why-js.md",
     "functional-programming.md",
-    "underscore.md",
     "purity.md",
     "first-class-functions.md",
     "higher-order-programming.md",
@@ -10,5 +9,7 @@
     "currying.md",
     "closures.md",
     "intermezzo-1.md",
-    "composition.md"
+    "composition.md",
+    "underscore.md",
+    "scoreunder.md"
 ]
