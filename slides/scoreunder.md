@@ -1,4 +1,4 @@
-##  scoreunder
+##  scoreunder.js
 
 Underscore got things backwards...
 
