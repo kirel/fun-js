@@ -6,5 +6,9 @@
     "purity.md",
     "first-class-functions.md",
     "higher-order-programming.md",
-    "partial-application.md"
+    "partial-application.md",
+    "currying.md",
+    "closures.md",
+    "intermezzo-1.md",
+    "composition.md"
 ]
