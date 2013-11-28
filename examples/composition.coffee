@@ -8,14 +8,28 @@ double = multiply 2
 
 console.log double(plus5(5))
 
+# | 
+# v
+
+
+
+
+
+
+
 compose2 = (snd, fst) -> (arg) -> snd(fst(arg))
 
 plus5thenDouble = compose2 double, plus5
 
-console.log plus5thenDouble(5)
+# console.log plus5thenDouble(5)
 
 # | 
 # v
+
+
+
+
+
 
 
 
@@ -31,6 +45,8 @@ truthy = (arg) -> compose(truth, always)(arg)()
 
 # | 
 # v
+
+
 
 
 

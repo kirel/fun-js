@@ -6,4 +6,4 @@
 - immutability <span class='fragment'>(not today)</span>
 - composition
 - partial application & currying
-- recursion <span class='fragment'>(bonus)</span>
+- recursion <span class='fragment'>(neither)</span>

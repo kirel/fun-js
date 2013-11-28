@@ -9,6 +9,10 @@ console.log get('coffee')({coffee: 'Espresso'})
 
 
 
+
+
+
+
 {mapWith} = require('./lib.coffee')
 
 pluck = curry (prop, ary) -> mapWith(get(prop), ary)
@@ -29,6 +33,10 @@ getColors = pluck('color')
 
 
 
+
+
+
+
 modulo = curry (a, b) -> a % b
 flip2 = (fun) -> curry (b, a) -> fun(a, b)
 oludom = flip2 modulo
@@ -40,6 +48,10 @@ isOdd = truth oludom(2)
 
 # | 
 # v
+
+
+
+
 
 
 

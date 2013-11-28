@@ -1,6 +1,9 @@
 _ = require('../node_modules/underscore')
 wu = require('../node_modules/wu').wu
 
+id = (a) -> a
+exports.id = id
+
 curry = wu.autoCurry
 exports.curry = curry
 compose = wu.compose

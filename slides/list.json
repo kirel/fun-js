@@ -8,8 +8,12 @@
     "partial-application.md",
     "currying.md",
     "closures.md",
-    "intermezzo-1.md",
+    "intermezzo.md",
     "composition.md",
     "underscore.md",
-    "scoreunder.md"
+    "scoreunder.md",
+    "monads.md",
+    "arkward.md",
+    "point-free.md",
+    "finale.md"
 ]

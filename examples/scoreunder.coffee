@@ -4,16 +4,16 @@ _ = require('underscore')
 names = ['Jack Drake', 'Ben James', 'Tim Banes']
 # => initials = ['J. D.', 'B. J.', 'T. B.']
 
-
-
-
-
-
-
-
+# Freiwillige vor!
 
 # | 
 # v
+
+
+
+
+
+
 
 initials = _.map names, (fullName) ->
   _.map(fullName.split(' '), (name) ->
@@ -25,11 +25,11 @@ console.log initials
 # | Let's transform this with what we have learnt
 # v
 
-
-
+# Freifillige vor!
 
 # | 
 # v
+
 
 
 
