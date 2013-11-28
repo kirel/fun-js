@@ -21,11 +21,13 @@ flip = (f) -> (args...) -> apply(f, reverse(args))
 exports.flip = flip
 
 map = curry (mappable, fun) -> mappable.map fun
-mapWith = flip map
+mapWith = curry (fun, mappable) -> mappable.map fun
+# mapWith = flip map # doesn't always work because of variadic signature
 exports.map = map
 exports.mapWith = mapWith
 
 filter = curry (filterable, fun) -> filterable.filter fun
-filterWith = flip filter
+filterWith = curry (fun, filterable) -> filterable.filter fun
+# filterWith = flip filter map # doesn't always work because of variadic signature
 exports.filter = filter
 exports.filterWith = filterWith
