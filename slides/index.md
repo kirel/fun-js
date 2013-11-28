@@ -1,4 +1,4 @@
 
 # Fun<sub><small>(ctional)</small></sub> Javascript
 
-[@kirel](https://twitter.com/kirel)
+http://kirelabs.org/fun-js by [@kirel](https://twitter.com/kirel)
