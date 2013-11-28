@@ -3,7 +3,7 @@
 Underscore got things backwards...
 
 ---
-[Code](txmt://open?url=file://~/code/fun-js/examples/scoreunder.coffee)
+[Code](https://github.com/kirel/fun-js/tree/master/examples/scoreunder.coffee)
 
 note:
   Keine

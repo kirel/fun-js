@@ -5,7 +5,7 @@ Another interactive example.
 Und alle so: Yeah!
 
 ---
-[Code](txmt://open?url=file://~/code/fun-js/examples/finale.coffee)
+[Code](https://github.com/kirel/fun-js/tree/master/examples/finale.coffee)
 
 note:
     Put your speaker notes here.

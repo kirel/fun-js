@@ -8,7 +8,7 @@
 - currying
 
 ---
-[Code](txmt://open?url=file://~/code/fun-js/examples/scoreunder.coffee)
+[Code](https://github.com/kirel/fun-js/tree/master/examples/scoreunder.coffee)
 
 note:
   Parameter in der richtigen Reihenfolge.

@@ -1,6 +1,6 @@
 ##  intermezzo
 
-[Code](txmt://open?url=file://~/code/fun-js/examples/intermezzo.coffee)
+[Code](https://github.com/kirel/fun-js/tree/master/examples/intermezzo.coffee)
 
 note:
     keine

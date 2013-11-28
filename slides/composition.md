@@ -3,7 +3,7 @@
 Stitching functions together...
 
 ---
-[Example](txmt://open?url=file://~/code/fun-js/examples/composition.coffee)
+[Example](https://github.com/kirel/fun-js/tree/master/examples/composition.coffee)
 
 note:
     Keine
