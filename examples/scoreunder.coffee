@@ -61,7 +61,7 @@ nameToInitials = compose(
 
 
 
-# if you don't line the order of compose
+# if you don't like the order of compose
 {flip} = require('./lib.coffee')
 pipeline = flip(compose)
 
