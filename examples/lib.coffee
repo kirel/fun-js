@@ -23,6 +23,11 @@ exports.reverse = reverse
 flip = (f) -> (args...) -> apply(f, reverse(args))
 exports.flip = flip
 
+unary = (f) -> (a) -> f.call(@, a)
+binary = (f) -> (a, b) -> f.call(@, a, b)
+exports.unary = unary
+exports.binary = binary
+
 map = curry (mappable, fun) -> mappable.map fun
 mapWith = curry (fun, mappable) -> mappable.map fun
 # mapWith = flip map # doesn't always work because of variadic signature

@@ -4,7 +4,7 @@ _ = require('underscore')
 names = ['Jack Drake', 'Ben James', 'Tim Banes']
 # => initials = ['J. D.', 'B. J.', 'T. B.']
 
-# Freiwillige vor!
+# volunteers!
 
 # | 
 # v
@@ -20,23 +20,24 @@ initials = _.map names, (fullName) ->
     _.first(name.split('')) + '.'
   ).join(' ')
   
-console.log initials
+# console.log initials
 
 # | Let's transform this with what we have learnt
 # v
 
-# Freifillige vor!
+# volunteers!
 
-# | 
+
+
+
+
+
+# | That didn't work because arguments are in wrong order...
 # v
 
+{curry, compose, flip, binary} = require('./lib.coffee')
 
-
-
-
-
-{curry, compose, mapWith} = require('./lib.coffee')
-
+mapWith = curry binary flip _.map
 split = curry (sep, str) -> str.split sep
 join = curry (sep, str) -> str.join sep
 first = _.first
@@ -48,11 +49,11 @@ nameToInitials = compose(
   split(' ')
 )
 
-# initials = mapWith nameToInitials, names
+initials = mapWith nameToInitials, names
 
 # console.log initials
 
-# | 
+# | if you don't like the order of compose
 # v
 
 
@@ -61,7 +62,7 @@ nameToInitials = compose(
 
 
 
-# if you don't like the order of compose
+# we can flip it, too
 {flip} = require('./lib.coffee')
 pipeline = flip(compose)
 

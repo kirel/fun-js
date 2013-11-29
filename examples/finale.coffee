@@ -13,7 +13,7 @@ _ = require('underscore')
 split = curry (sep, str) -> str.split sep
 join = curry (sep, str) -> str.join sep
 
-# Freiwillige vor!
+# volunteers!
 
 # |
 # v
@@ -48,8 +48,6 @@ parse = compose(toObjects, toMatrix)
 
 
 
-
-{apply, id} = require('./lib.coffee')
 
 # Let's add more abstraction: Datatype Pair
 

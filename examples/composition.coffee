@@ -51,6 +51,9 @@ truthy = (arg) -> compose(truth, always)(arg)()
 
 
 
+
+# Nicer implementation of truth:
+
 # falsy = (arg) -> !arg
 # truthy = compose(falsy, falsy)
 
