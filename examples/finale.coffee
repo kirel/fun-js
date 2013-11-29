@@ -51,10 +51,9 @@ parse = compose(toObjects, toMatrix)
 
 {apply, id} = require('./lib.coffee')
 
-# Datentyp Pair
+# Let's add more abstraction: Datatype Pair
 
 Pair = (@fst, @snd) -> null
-# Funktion mit fst und snd als Parameter ausführen
 Pair.prototype.apply = (f) -> f.apply(this, [@fst, @snd])
 
 applyPair = curry (f, p) -> p.apply(f)
@@ -64,7 +63,7 @@ mapSnd = curry (f, p) -> new Pair(p.fst,  f(p.snd))
 
 toHeadTailPair = (ary) -> new Pair(_.first(ary), _.rest(ary))
 
-# Implementierung auf Basis der Abstraktion
+# Impementation based on Pair is even nicer...
 
 parse = compose(
   applyPair(mapWith),
