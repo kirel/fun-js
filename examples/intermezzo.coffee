@@ -13,7 +13,7 @@ console.log get('coffee')({coffee: 'Espresso'})
 
 
 
-{mapWith} = require('./lib.coffee')
+mapWith = curry (fun, mappable) -> mappable.map fun
 
 pluck = curry (prop, ary) -> mapWith(get(prop), ary)
 
@@ -54,8 +54,7 @@ isOdd = truth oludom(2)
 
 
 
-
-{filterWith} = require('./lib.coffee')
+filterWith = curry (fun, filterable) -> filterable.filter fun
 
 # unary = (fun) -> (args...) -> fun.call(@, [args.shift()])
 # isOdd = unary truth oludom(2)
