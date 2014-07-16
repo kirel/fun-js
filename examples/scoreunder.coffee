@@ -4,8 +4,6 @@ _ = require('underscore')
 names = ['Jack Drake', 'Ben James', 'Tim Banes']
 # => initials = ['J. D.', 'B. J.', 'T. B.']
 
-# volunteers!
-
 # | 
 # v
 
