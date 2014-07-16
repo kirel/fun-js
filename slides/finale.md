@@ -1,8 +1,6 @@
 ##  finale
 
-Another interactive example.
-
-Und alle so: Yeah!
+Another example.
 
 ---
 [Code](txmt://open?url=file://~/code/fun-js/examples/finale.coffee)
