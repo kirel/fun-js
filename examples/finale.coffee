@@ -13,8 +13,6 @@ _ = require('underscore')
 split = curry (sep, str) -> str.split sep
 join = curry (sep, str) -> str.join sep
 
-# volunteers!
-
 # |
 # v
 
@@ -30,7 +28,11 @@ splitLines = split("\n")
 splitFields = split(";")
 
 toMatrix = compose(mapWith(splitFields), splitLines)
+# console.log toMatrix csv
+
 object = curry _.object
+# _.object(['fred', 'barney'], [30, 40])
+# → { 'fred': 30, 'barney': 40 }
 toObjects = (ary) -> mapWith(object(_.first(ary)), _.rest(ary))
 
 parse = compose(toObjects, toMatrix)
