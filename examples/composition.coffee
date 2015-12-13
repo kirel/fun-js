@@ -17,7 +17,7 @@ console.log double(plus5(5))
 
 
 
-compose2 = (snd, fst) -> (arg) -> snd(fst(arg))
+compose2 = curry (snd, fst) -> (arg) -> snd(fst(arg))
 
 plus5thenDouble = compose2 double, plus5
 
